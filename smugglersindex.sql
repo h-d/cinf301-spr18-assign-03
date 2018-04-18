@@ -64,9 +64,9 @@ create table orders
 
 create table orders_ships
 ( order_id int not null references orders(id),
-  item_id int not null references items (id),
+  ship_id int not null references ships (id),
   quantity int not null,
-  primary key(order_id, item_id)
+  primary key(order_id, ship_id)
 );
 
 create table sellers
