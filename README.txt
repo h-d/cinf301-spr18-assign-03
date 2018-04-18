@@ -1,3 +1,3 @@
 CINF 301
-Hudson DeVoe
+Hudson DeVoe and Ryan Anderson
 Database Assignment
